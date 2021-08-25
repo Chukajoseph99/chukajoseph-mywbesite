@@ -372,6 +372,8 @@ font-size: 15px;
 
 }
 
+
+
 .section5 .container5{
   width: 75%;
 }
@@ -479,6 +481,9 @@ x
     line-height: 25px;
   }
 
+  .container3{
+    width:70%;
+  }
 
   .container3 .container3-cols{
     grid-template-columns: 1fr;
