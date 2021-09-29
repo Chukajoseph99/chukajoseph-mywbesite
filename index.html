@@ -14,6 +14,8 @@
   <title>Chuka Joseph</title>
   <link rel=“canonical” href=“https://www.chukajoseph.ml” />
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+  <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://kit.fontawesome.com/00f8ef876f.js" crossorigin="anonymous"></script>
@@ -65,10 +67,18 @@
 <p data-aos="fade-right" data-aos-delay="700">Here are some projects i have designed and developed.</p>
 <div class="container3-cols">
 
+
+<div class="column" data-aos="zoom-in">
+<a href="http://joelma.co.uk/joelmajobapplication/index.html" target="_blank">  <img src="images/joelmacareagency.png"  class="image" alt="joelmacareagency">
+<div class="overlay">
+<div class="text">www.joelma.co.uk<br><span class="spantext">Joelma Care Agency Job Application Section</span><br><span class="spantext">Web Development / Web Design</span></div>
+</div> 
+</a>
+</div> 
 <div class="column" data-aos="zoom-in">
 <a href="https://www.loopxtech.ml" target="_blank">  <img src="images/image1.png"  class="image" alt="loopxtech">
 <div class="overlay">
-<div class="text">www.loopxtech.ml<br><span class="spantext">Loopx technologies</span><br><span class="spantext">Web Development / Web Design</span></div>
+<div class="text">www.loopxtech.ml<br><span class="spantext">Loopx Technologies</span><br><span class="spantext">Web Development / Web Design</span></div>
 </div> 
 </a>
  </div>
@@ -176,6 +186,28 @@
 </div>
 </div>
 
+<div class="sectionTestimonial">
+<div class="containerTestimonial">
+<h2 data-aos="fade-up">Testimonials</h2>
+<div class="owl-carousel owl-theme">
+  <div class="testimonials-box item">
+    <div class="testimonial-photo">
+      <img src="images/joelmalogo.png" alt="Client Photo">
+    </div>
+    <h3>Joelma Care Agency</h3>
+    <p>Chuka is a very professional web developer.I was very impressed with the design he implemented on the job application section of my website; it is beautiful, professional and the best. You have outdone yourself.<br> <span style="color:blue">Thelma Oba - CEO OF Joelma Care Agency. UK</span></p>
+
+  </div>
+  <div class="testimonials-box item">
+    <div class="testimonial-photo">
+      <img src="images/joelmalogo.png" alt="Client Photo">
+    </div>
+    <h3>Joelma Care Agency</h3>
+    <p>Chuka is a very professional web developer.I was very impressed with the design he implemented on the job application section of my website; it is beautiful, professional and the best. You have outdone yourself.<br> <span style="color:blue">Thelma Oba - CEO OF Joelma Care Agency. UK</span></p>
+  </div>
+</div>
+</div>
+</div>
 
 <div class="section5">
 <div class="container5">
@@ -225,6 +257,21 @@
 
 
 </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="./OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+<script src="./OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+<script>
+$('.owl-carousel').owlCarousel({
+loop: true,
+margin: 10,
+nav: true,
+responsive:{
+0:{
+  items: 1
+}
+}  
+})
+</script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
 // AOS.init();
