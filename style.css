@@ -412,6 +412,52 @@ padding-bottom: 1rem;
 
   }
 
+  .contact-box{
+    width: 700px;
+    background-color: #fff;
+    opacity: 0.9 !important;
+    box-shadow: 0 0 20px 0 #999;
+    margin: 0 auto;
+    }
+    form{
+    margin: 35px;
+    padding: 10px 0;
+    }
+    .form-group{
+    padding-top: 20px;
+    }
+    .input-field{
+    font-size: 15px;
+    width: 600px;
+    height: 40px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    /* border-radius: 14px; */
+    outline: none;
+    }
+    .textarea-field{
+    height: 200px;
+    padding-top: 10px;
+    }
+    .btn{
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color:blue;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    }
+    
+    .btn:hover{
+        background-color:black;
+        color: red;
+    }
+
   .section5 .container5 a{
     /* text-decoration:none; */
     color:rgb(128, 128, 128);
@@ -443,71 +489,12 @@ padding-bottom: 1rem;
         color: black;
       }
 
-      div.form
-      {
-          display: block;
-          text-align: center;    
-      
-      }
-          
-      form {
-      padding: 2.5rem;
-      background-color: rgba(0, 8, 8, 1);
-      box-sizing: border-box;
-      border-radius: 10px;
-      display: inline-block;
-      margin: 0 auto;
-      text-align: left;  
-      width: 700px;
-      }
-      
-      form label{
-      color: white;
-      }
-      
-      .form-group{
-        margin: 0 auto 1.25rem auto;
-        padding: 0.25rem;
-        border-radius: 5px;
-      }
+
       
       
-      textarea{
-      resize: vertical;
-     
-      }
+
       
-      #name,#email,#subject {
-        height:40px;
-        width:600px;
-        border-radius: 5px;
-        font-size: 17px;
-      }
-      
-      #name-label,#email-label,#subject-label,#coverLetter-label{
-      color: white;
-      }
-      
-      
-      textarea{
-        height:180px;
-        width:600px;
-        border-radius: 5px;  
-        font-size: 17px;
-      }
-      
-      #submit{
-        height:35px;
-        width:609px;
-        border-radius: 5px; 
-        background-color:rgb(228, 72, 72);
-        cursor: pointer;
-      }
-      
-      #submit:hover{
-        background-color:rgb(29, 22, 17); 
-        color: white;
-      }
+ 
 
 
 .container6{
@@ -635,14 +622,15 @@ x
 
 }
 
-@media (max-width: 825px){
-  form{
-  width:550px;
-  }
-  #name,#email,#subject,#textarea,#submit {
-      width:455px;
-    }
-  }
+@media (max-width: 800px){
+  .contact-box{
+      width: 600px;
+      }
+      .input-field{
+      width: 500px;
+      }
+}
+
 
 @media(max-width: 700px) {
 
@@ -714,24 +702,47 @@ width: 75%;
 
 }
 
-@media (max-width:670px){
-
-  
-  form{
-      width:410px;
+@media (max-width: 690px){
+  .contact-box{
+      width: 400px;
       }
-      #name,#email,#subject,#textarea,#submit {
-          width:305px;
-        }
-  
+      .input-field{
+      width: 300px;
       }
+}
 
-    
-    @media (max-width:550px){
-    form{
-    width:350px;
-    }
-    #name,#email,#subject,#textarea,#submit {
-    width:255px;
-    }
-  }
+@media (max-width: 675px){
+  .contact-box{
+      width: 400px;
+      }
+      .input-field{
+      width: 300px;
+      }
+}
+
+@media (max-width: 500px){
+  .contact-box{
+      width: 300px;
+      }
+      .input-field{
+      width: 200px;
+      }
+}
+
+@media (max-width: 400px){
+  .contact-box{
+      width: 280px;
+      }
+      .input-field{
+      width: 200px;
+      }
+}
+
+@media (max-width: 370px){
+  .contact-box{
+      width: 280px;
+      }
+      .input-field{
+      width: 200px;
+      }
+}
