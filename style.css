@@ -169,7 +169,6 @@ outline: none;
 
 
 .section2{
-  background-color:white;
   color:black;
   height:auto;
   
@@ -177,7 +176,7 @@ outline: none;
 }
 
 .section2 .container2{
-width:50%;
+width:80%;
 margin: 0px auto;
 padding: 5rem 0;
 }
@@ -195,7 +194,67 @@ font-size:20px;
 color: #616161
 }
 
+.section2_5{
+  background-color:white;
+  color:black;
+  height:auto;
+  padding: 5rem 0;
+ 
+}
 
+.section2_5 .container2_5{
+  width:80%;
+  margin: 0px auto;
+  
+  
+  }
+  
+
+.container2_5 .container2_5-cols{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0.5rem; 
+  padding: 50px;
+}
+
+.container2_5 .container2_5-cols img{
+  width:100%; 
+  height:90%;
+ }
+
+ .reverse .img{
+order: 2;
+ }
+
+ .reverse .txt{
+  order:1;
+ }
+
+.container2_5 .container2_5-cols p{
+line-height: 30px;
+font-size:17px;
+color: black;
+ }
+ 
+ .button{
+   display: inline-block;
+   background: black;
+   color: white;
+   padding: 15px 20px;
+   text-align: center;
+   text-decoration: none;
+   font-size: 16px;
+   cursor: pointer;
+   width:120px;
+   height:20px;
+   border-radius: 30px;
+  
+ }
+
+ .button:hover {
+  background-color: #ddd;
+  color: black;
+}
 .section3{
 width: 100%;
 background-color: black;
@@ -250,6 +309,13 @@ font-family: 'Merriweather', serif;
 font-weight: 900;
 text-transform: uppercase;
 }
+
+.container3 .ptxt{
+  font-size:16px;
+  font-family: 'Merriweather', serif;
+  font-weight: 200;
+  
+  }
 
 .container3 .container3-cols{
   display: grid;
@@ -656,6 +722,17 @@ x
       .input-field{
       width: 500px;
       }
+      .container2_5 .container2_5-cols{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 50px;
+      }
+      .reverse .img{
+        order: 1;
+         }
+        
+         .reverse .txt{
+          order: 2;
+         }   
 }
 
 
