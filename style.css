@@ -25,6 +25,8 @@
 html{
     font-size: 62.5%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+
 }
 
 section{
@@ -108,6 +110,7 @@ header .logo{
 color: gold;
 font-size: 33px;
 font-family: 'Cookie', cursive;
+font-weight: bold;
 }
 
 header .navbar a:hover{
@@ -132,7 +135,7 @@ header .scroll-bar{
 
 .home{
 width: 100%;
-background:url(./image/backgroundimage.jpg) no-repeat;
+background: linear-gradient(0deg, rgba(255, 255, 255, 0.851), rgba(255, 255, 255, 0.851)), url(./image/background-image03.jpg) no-repeat;
 background-size: cover;
 background-position: center;
 background-attachment: fixed;
@@ -147,7 +150,7 @@ height: 100vh;
 
 
 .home .content2 img {
-height: 100%;
+height: 350px;
 border-radius: 50%;
 }
 
@@ -171,7 +174,7 @@ border-radius: 50%;
 
 .home .content .name span{
     color:var(--pink);
-    font-weight: bolder;
+    font-weight: bold;
     text-transform: uppercase;
 }
 
@@ -181,7 +184,18 @@ border-radius: 50%;
     color:#000;
     padding-bottom: 1rem;
 }
-
+.home .content div{
+    display: flex;
+    gap: 5px;
+}
+.home .content div i{
+    font-size: 15px;
+    color: gold;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
 
 .section2{
     color:black;
@@ -206,60 +220,13 @@ border-radius: 50%;
   .section2 .container2 p{
   line-height: 30px;
   font-size:22px;
-  color: #616161
+  color: #000;
   }
-
-.service{
-    background:#f9f9f9;
-}
-
-.service .box-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.service .box-container .box{
-    border:.1rem solid rgba(0,0,0,.2);
-    border-radius: .5rem;
-    box-shadow:  0 .5rem 1rem rgba(0,0,0,.1);
-    margin:1.5rem;
-    padding:2.5rem;
-    background: #fff;
-    position: relative;
-    z-index: 0;
-    flex:1 1 30rem;
-}
-
-.service .box-container .box .number{
-    font-size: 7rem;
-    color:rgba(0,0,0,.05);
-    position: absolute;
-    top:-1rem; right:1rem;
-    z-index: -1;
-    font-weight: bolder;
-}
-
-.service .box-container .box:hover .number{
-    font-size: 9rem;
-}
-
-.service .box-container .box h3{
-    font-size: 2.4rem;
-    color:#333;
-}
-
-.service .box-container .box p{
-    font-size: 1.9rem;
-    color:#666;
-    padding:1rem 0;
-}
-
 
 .section3{
     width: 100%;
     color: #000;
+    background:#f9f9f9;
     }
     
     .container3{
@@ -598,17 +565,18 @@ height: auto;
 
 
 .contact .contact-icons{
-    font-size:30px;
-    padding-top:50px;
+    font-size:20px;
+    padding-top:40px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
     }
 
       .contact i {
-        margin-right: 80px;
-        margin-left:80px;
         background-color: black;
         border-radius: 50%;
         border: 1px solid grey;
-        padding:15px;
+        padding: 10px;
         color:white;
       }
       
@@ -625,10 +593,10 @@ height: auto;
     color:#333;
     padding:2.5rem 1rem;
     text-align: center;
-    width:75%;
+    width:100%;
     margin: 0 auto;
     font-size:18px;
-    color:gray;
+    color:black;
 }
 
 .footer a{
