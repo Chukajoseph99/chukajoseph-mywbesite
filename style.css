@@ -93,7 +93,7 @@ header{
     width:100%;
     background:rgba(0,0,0,.5);
     padding:2rem 5%;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -135,7 +135,7 @@ header .scroll-bar{
 
 .home{
 width: 100%;
-background: linear-gradient(0deg, rgba(255, 255, 255, 0.851), rgba(255, 255, 255, 0.851)), url(./image/background-image03.jpg) no-repeat;
+background: linear-gradient(0deg, rgba(255, 255, 255, 0.951), rgba(255, 255, 255, 0.951)), url(./image/backgroundimage.jpg) no-repeat;
 background-size: cover;
 background-position: center;
 background-attachment: fixed;
@@ -201,6 +201,7 @@ border-radius: 50%;
     color:black;
     height: auto;
     padding: 60px 0px !important;
+    background-color: #efeded;
   }
   
   .section2 .container2{
@@ -208,29 +209,22 @@ border-radius: 50%;
   margin: 0px auto;
   }
   
-  /* .section2 .container2 h1{
-  text-align:center;
-  font-family: 'Merriweather', serif;
-  letter-spacing: 2px;
-  font-size: 30px;
-  padding-bottom: 20px;
-  
-  } */
-  
   .section2 .container2 p{
   line-height: 30px;
   font-size:22px;
   color: #000;
   }
 
+  .section2 .container2 p span{
+    font-weight: bolder;
+  }
+
 .section3{
     width: 100%;
     color: #000;
-    background:#f9f9f9;
     }
     
     .container3{
-    /* background-color: #d9d9d9; */
     width:90%;
     height:auto;
     margin: 0 auto;
@@ -301,16 +295,11 @@ border-radius: 50%;
     .testim{
     width: 100%;
     height: auto;
-    background:url(./image/MinimalistBackgroundIV.jpg) no-repeat;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.551), rgba(255, 255, 255, 0.551)), url(./image/MinimalistBackgroundIV.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    /* background: #f9f9f9; */
-    /* position: absolute; */
     position: relative;
-    /* top: 50%; */
-    /* transform: translateY(-50%); */
-    /* z-index: 22222222; */
     }
     .testim .wrap{
         position: relative;
@@ -318,12 +307,10 @@ border-radius: 50%;
         max-width: 1020px;
         padding: 40px 20px;
         margin: auto;
-        /* z-index: 22222222; */
     }
     .testim .arrow{
         display: block;
         position: absolute;
-        /* color: #eee; */
         color: black;
         cursor: pointer;
         font-size: 4em;
@@ -331,7 +318,6 @@ border-radius: 50%;
         transform: translateY(-50%);
         transition: all .3s ease-in-out;
         padding: 5px;
-        /* z-index: 22222222; */
     }
     .testim .arrow:before{
         cursor: pointer;
@@ -352,7 +338,6 @@ border-radius: 50%;
         bottom: 60px;
         left: 0;
         display: block;
-        /* z-index: 3333; */
         height: 15px;
     }
     .testim .dots .dot{
@@ -495,6 +480,7 @@ border-radius: 50%;
 
 .contact{
 height: auto;
+background-color: #efeded;
 }
 
  .contact .row{
@@ -511,16 +497,6 @@ height: auto;
     padding: 2rem;
     flex:1 1 40rem;
 }
-
-/* .contact .row .image{
-    flex:1 1 40rem;
-} */
-
-/* .contact .row .image img{
-    height: 100%;
-    width:100%;
-    object-fit: cover;
-} */
 
 .contact .row form .inputBox{
     position: relative;
@@ -589,7 +565,6 @@ height: auto;
 
 
 .footer{
-    background:#f9f9f9;
     color:#333;
     padding:2.5rem 1rem;
     text-align: center;
@@ -606,10 +581,6 @@ height: auto;
 .footer a:hover{
     text-decoration: underline;
 }
-
-
-
-
 
 
 
@@ -708,14 +679,6 @@ width: 90%;
     display: none;
     }
     
-
-    /* .home{
-        background-position: left;
-    }
-
-    .home .content .name{
-        font-size: 3.5rem;
-    } */
 
     .contact .row .image{
         display: none;
