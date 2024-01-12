@@ -1,2 +1,2 @@
 # chukajoseph-mywebsite
-[Click here](https://www.chukajoseph.net) to view my website
+[Click here](https://chukajoseph99.github.io/chukajoseph-mywebsite/) to view my website
